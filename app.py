@@ -172,7 +172,7 @@ def add_planet():
     planet_name = request.form['planet_name']
     test = Planet.query.filter_by(planet_name=planet_name).first()
     if test is not None:
-        return jsonify("There is already a planet by that name"), 409
+        return jsonify(message="There is already a planet by that name"), 409
     else:
         planet_type = request.form['planet_type']
         home_star = request.form['home_star']
