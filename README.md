@@ -6,6 +6,8 @@ Using Flask to build a Restful Planetary API Server.
 
 A lightweight Flask project to explore Flask's features and understand how its basic tools work. 
 
+[Document page](https://documenter.getpostman.com/view/20040254/UzJFudk4)
+
 ### Extension:
 - SQL ORM: [Flask-SQLalchemy](http://flask-sqlalchemy.pocoo.org/2.1/)
 
@@ -28,7 +30,6 @@ Offical Website
 
 - [Flask](http://flask.pocoo.org/)
 - [Flask-SQLalchemy](http://flask-sqlalchemy.pocoo.org/2.1/)
-- [Document page](https://documenter.getpostman.com/view/20040254/UzJFudk4)
 
 Tutorial
 
