@@ -1,7 +1,10 @@
-# Flask example
+# Flask Restful Planetary API Server
 
 Using Flask to build a Restful Planetary API Server.
 
+## Description
+
+A lightweight Flask project to explore Flask's features and understand how its basic tools work. 
 
 ### Extension:
 - SQL ORM: [Flask-SQLalchemy](http://flask-sqlalchemy.pocoo.org/2.1/)
