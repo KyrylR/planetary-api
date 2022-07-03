@@ -22,15 +22,13 @@ $ python app.py
 ```
 In flask, Default port is `5000`
 
-[Document page](https://documenter.getpostman.com/view/20040254/UzJFudk4)
-
-
 ## Reference
 
 Offical Website
 
 - [Flask](http://flask.pocoo.org/)
 - [Flask-SQLalchemy](http://flask-sqlalchemy.pocoo.org/2.1/)
+- [Document page](https://documenter.getpostman.com/view/20040254/UzJFudk4)
 
 Tutorial
 
