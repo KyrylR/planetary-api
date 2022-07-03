@@ -10,7 +10,7 @@ app = Flask(__name__)
 basedir = os.path.abspath(os.path.dirname(__file__))
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir, 'planets.db')
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
-app.config['JWT_SECRET_KEY'] = 'super-secret'  # change this IRL
+app.config['JWT_SECRET_KEY'] = os.environ['JWT_SECRET_KEY']
 app.config['MAIL_SERVER'] = 'smtp.mailtrap.io'
 app.config['MAIL_USERNAME'] = os.environ['MAIL_USERNAME']
 app.config['MAIL_PASSWORD'] = os.environ['MAIL_PASSWORD']
@@ -154,9 +154,6 @@ def retrieve_password(email: str):
         return jsonify(message="Password sent to " + email)
     else:
         return jsonify(message="That email doesn't exist"), 401
-
-
-
 
 
 # Database models
